@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <style type="text/css"></style>
+	    <title>Blog</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a href="http://refactoru.com">RefactorU</a> |
+				<a href="whitehouse.gov">The White House</a>
+			</nav>
+			<h1>Welcome to another blog</h1>
+			<h3>All the bits fit to <del>print</del> <ins>git</ins></h3>
+		</header>
+
+	    <article>
+	    	<h2>Day 2 at Refactor<span style="color:orange">U</span></h2>
+	    	<h4>Weather: Rainy</h4>
+	    		<p>So, Day 2 begins with brief announcements then straight into html coding.</p>
+	    </article>
+	    	
+	    	<hr>
+
+	 	<article>
+	    	<h2>Day 1 at Refactor<span style="color:orange">U</span></h2>
+	    	<h4>Weather: Nice, but turned rainy</h4>
+	    		<p>Brief rundown:</p>
+	    		<ol>
+	    			<li>Introductions</li>
+	    			<li>Announcements</li>
+	    			<li>Meet and Greet</li>
+	    			<li>Lunch</li>
+	    			<li>Brief intro of <em>HTML5</em> and <strong>CSS3</strong></li>
+	    			<li>Pair Programming exercise involving the CSS transform property: <code>-webkit-transform: rotateY()</code></li>
+	    		</ol>    			
+
+	    		<aside>
+	    			<h4>Where are we?</h4>
+	    			<p>Boulder, CO</p>
+	    		</aside>
+
+	    		 <section>
+	    			<h5>Images from Refactor<span style="color:orange">U</span></h5>
+				</section>
+	    </article>
+
+	    	<hr>
+
+	    <div id="trails">
+	    	<h2>Boulder Trails</h2>
+
+	    	<p>Managed by <cite>Open Space and Mountain Parks</cite> <abbr>[OSMP]</abbr> <sup><a href="https://bouldercolorado.gov/osmp/trails-and-maps">[1]</a></sup></p>
+	    	<blockquote>Open Space and Mountain Parks  manages over 145 miles of trails! Links below will take you to information about recreational activities, individual trailhead pages (including trail maps), rules and regulations, and other useful visitor information.</blockquote>
+
+	    	<img src="https://www-static.bouldercolorado.gov/docs/banners/1374007183_trails_and_maps_banner.jpg" alt="Trail Picture">
+
+		    <table border="1">
+		    	<caption>Boulder Trails</caption>
+		    	<colgroup>
+		    		<col span="2" style="background-color: green">
+		    		<col style="background-color: gray">
+		    	</colgroup>
+		    	<thead>
+		    		<tr>
+		    			<th>Trail</th>
+		    			<th>Miles</th>
+		    			<th>Area</th>
+		    		</tr>
+		    	</thead>
+		    	<tbody>
+		    		<tr>
+		    			<td>Cottonwood</td>
+		    			<td>1.2</td>
+		    			<td>NE</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Wonderland Lake</td>
+		    			<td>1.5</td>
+		    			<td>NW</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Eagle</td>
+		    			<td>2.6</td>
+		    			<td>N</td>
+		    		</tr>
+		    	</tbody>
+		    	<tfoot>
+		    		<tr>
+		    			<td>Total</td>
+		    			<td>10</td>
+		    			<td></td>
+		    		</tr>
+		    	</tfoot>
+			</table>
+		</div>
+
+		<div>
+			<h3>Trails I've run</h3>
+			<ul>
+				<li>Boulder Creek Trail</li>
+				<li>Goose Creek Trail</li>
+			</ul>
+
+			<dl>
+				<dt>Boulder Creek Trail</dt>
+					<dd>Runs along the Boulder Creek</dd>
+					<dd>East to West through Boulder</dd>
+					<dd>Mountains to Prairie</dd>
+				<dt>Goose Creek Trail</dt>
+					<dd>Runs East to West</dd>
+					<dd>East side of Boulder</dd>
+			</dl>
+
+			<pre>
+	    		These are some trails that I would like to check out
+	    		and some I've run.  I usually try to get out early, 
+	    		around <time>06:00</time>. Cheers!
+	    	</pre>
+		</div>
+
+		<div id="president">
+			<h3>A word from our President</h3>
+				<q>That’s why, last weekend, I announced that, as Commander in Chief, I decided that the United States should take military action against the Syrian regime.  This is not a decision I made lightly.  Deciding to use military force is the most solemn decision we can make as a nation.</q>
+
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/uCrCujWIgUY?feature=player_embedded" allowfullscreen></iframe>
+			
+		</div>
+
+		<div id="comments">
+			<fieldset>
+		    	<form name="comm">
+		    		<h3>Leave a comment:</h3>
+		    		<textarea rows="6" cols="75"></textarea>
+		    	</form>
+		    	
+		    	<form name="info">
+			    		<label for="firstname">First Name:</label>
+			    		<input type="text" id="firstname">
+			    		<label for="lastname">Last Name:</label>
+			    		<input type="text" id="lastname">
+		    	</form>
+
+				<p>Where you're from?</p>
+		    	<select>
+		    		<option value="Boulder">Boulder</option>
+		    		<option value="Longmont">Longmont</option>
+		    		<option value="Denver">Denver</option>
+		    		<option value="Westminster">Westminster</option>
+		    	</select>
+		    	<br>
+		    	<button type="submit">Submit</button>
+	    	</fieldset>
+		</div>
+
+	    <footer>
+	    	<address>
+	    		Send mail to:<br>
+	    		The White House<br>
+	    		Washington DC USA
+	    	</address>
+			<h6>Email at: <a href="mailto:richard@richardalucas.com">richard@richardalucas.com</a> </h6>
+	    </footer>
+	    
+	    <script type="text/javascript"></script>
+	</body>
+</html>
